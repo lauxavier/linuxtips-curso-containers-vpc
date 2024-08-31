@@ -1,6 +1,6 @@
 # Aula 01 - Arquitetura de VPCs
 
-## Arquitetura Base com 3 Camadas por Subnet (Apresentação, Lógica e Dados)
+## Arquitetura Base com 3 Camadas (Apresentação, Lógica e Dados)
 
 ![Arquitetura Camadas](/docs/vpc-camadas.drawio.png)
 
@@ -42,3 +42,4 @@ Para cada bloco de IP a AWS sempre reserva 5 IPs para uso interno de gerenciamen
 5. Endereço de broadcast (ex. 10.0.31.255): O último IP de cada bloco é usado para enviar mensagens a todos os hosts na subnet.
 
 [AWS re:Post Networking 101 - Part 2](https://repost.aws/articles/ARgs1iWM-ASlGSktYepaY68Q/networking-101-part-2)
+
